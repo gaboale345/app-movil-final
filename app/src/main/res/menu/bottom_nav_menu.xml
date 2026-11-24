@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_nav_dashboard"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/nav_timer"
+        android:icon="@drawable/ic_nav_timer"
+        android:title="Cronómetro" />
+
+    <item
+        android:id="@+id/nav_materias"
+        android:icon="@drawable/ic_nav_materias"
+        android:title="Materias" />
+
+    <item
+        android:id="@+id/nav_metas"
+        android:icon="@drawable/ic_nav_metas"
+        android:title="Metas" />
+
+    <item
+        android:id="@+id/nav_reportes"
+        android:icon="@drawable/ic_nav_reportes"
+        android:title="Reportes" />
+
+</menu>

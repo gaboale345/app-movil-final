@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Círculo base con acento rosa Pomodoro -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M54,24 A30,30 0 0,1 84,54 A30,30 0 0,1 54,84 A30,30 0 0,1 24,54 A30,30 0 0,1 54,24 Z" />
+
+    <!-- Anillo exterior de enfoque / temporizador -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,28 A26,26 0 1,1 36,36" />
+
+    <!-- Botón superior de cronómetro -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,18 L54,24" />
+
+    <!-- Libro abierto central estilizado (Blanco) -->
+    <!-- Página izquierda -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,48 C42,44 34,46 32,47 C31.4,47.3 31,47.9 31,48.5 L31,69 C31,69.8 31.8,70.5 32.6,70.3 C35.5,69.5 43,68 52,72 Z" />
+
+    <!-- Página derecha -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M56,48 C66,44 74,46 76,47 C76.6,47.3 77,47.9 77,48.5 L77,69 C77,69.8 76.2,70.5 75.4,70.3 C72.5,69.5 65,68 56,72 Z" />
+
+    <!-- Lomo / División central del libro -->
+    <path
+        android:strokeColor="#1976D2"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,47 L54,72" />
+
+    <!-- Destello de enfoque / Manecilla de flujo (Amarillo ámbar) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,34 L56.5,40.5 L63,41 L58,45 L59.5,51.5 L54,48 L48.5,51.5 L50,45 L45,41 L51.5,40.5 Z" />
+
+</vector>
